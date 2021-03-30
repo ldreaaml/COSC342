@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/02-VectorsMatrices/Matrix.cpp
+Matrix.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/02-VectorsMatrices/Matrix.h
+algorithm
+-
+cassert
+-
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/02-VectorsMatrices/Matrix.h
+vector
+-
+iostream
+-
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/02-VectorsMatrices/Vector.cpp
+Vector.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/02-VectorsMatrices/Vector.h
+cmath
+-
+cassert
+-
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/02-VectorsMatrices/Vector.h
+Matrix.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/02-VectorsMatrices/Matrix.h
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/02-VectorsMatrices/matrixMain.cpp
+Matrix.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/02-VectorsMatrices/Matrix.h
+Vector.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/02-VectorsMatrices/Vector.h
+iostream
+-
+
