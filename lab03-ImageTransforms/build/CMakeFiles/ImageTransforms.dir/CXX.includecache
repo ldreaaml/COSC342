@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/lab03-ImageTransforms/Image.h
+Pixel.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/lab03-ImageTransforms/Pixel.h
+Vector.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/lab03-ImageTransforms/Vector.h
+string
+-
+vector
+-
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/lab03-ImageTransforms/ImageTransforms.cpp
+Image.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/lab03-ImageTransforms/Image.h
+iostream
+-
+cmath
+-
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/lab03-ImageTransforms/Matrix.cpp
+Matrix.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/lab03-ImageTransforms/Matrix.h
+algorithm
+-
+cassert
+-
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/lab03-ImageTransforms/Matrix.h
+vector
+-
+iostream
+-
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/lab03-ImageTransforms/Pixel.h
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/lab03-ImageTransforms/Vector.h
+Matrix.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/lab03-ImageTransforms/Matrix.h
+
