@@ -8,6 +8,16 @@
 
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Colour.h
 
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Cube.cpp
+Cube.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Cube.h
+utility.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/utility.h
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Cube.h
+Object.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Object.h
+
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Direction.h
 Vector.h
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Vector.h
@@ -37,16 +47,6 @@ Transform.h
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Transform.h
 vector
 -
-
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Plane.cpp
-Plane.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Plane.h
-utility.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/utility.h
-
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Plane.h
-Object.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Object.h
 
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/Point.h
 Vector.h
