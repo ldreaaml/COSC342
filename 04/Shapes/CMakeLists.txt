@@ -11,6 +11,8 @@ add_executable(Shapes
   Shape.cpp
   Rectangle.h
   Rectangle.cpp
+  Circle.h
+  Circle.cpp
   Image.h
   Image.cpp
   Pixel.h

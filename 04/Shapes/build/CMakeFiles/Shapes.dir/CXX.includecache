@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Circle.h
+Shape.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Shape.h
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Image.h
+Pixel.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Pixel.h
+string
+-
+vector
+-
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Pixel.h
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Rectangle.h
+Shape.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Shape.h
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Shape.h
+Image.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Image.h
+Pixel.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Pixel.h
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/shapesMain.cpp
+memory
+-
+vector
+-
+Image.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Image.h
+Shape.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Shape.h
+Rectangle.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Rectangle.h
+Circle.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Circle.h
+

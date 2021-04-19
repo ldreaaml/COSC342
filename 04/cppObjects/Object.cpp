@@ -2,8 +2,9 @@
 
 #include <iostream>
 
-int Object::objectCount_ = 0;
+int Object::objectCount_ = 0; //static variable
 
+//id and value are protected variable
 Object::Object() : id_(++objectCount_), value_(0) {
 	std::cout << "Object " << id_ << " created with Default Constructor" << std::endl;
 }
@@ -20,8 +21,9 @@ Object::~Object() {
 	std::cout << "Object " << id_ << " Destroyed" << std::endl;
 }
 
+//assignment operator
 Object& Object::operator=(const Object& obj) {
-	if (this != &obj) {
+	if (this != &obj) { //this refer to current object (is a pointer so have to use -> if need to access member)
 		std::cout << "Assigning Object " << obj.id_ << " to Object " << id_ << ", giving it a new value of " << obj.value_ << std::endl;
 		value_ = obj.value_;
 	} else {

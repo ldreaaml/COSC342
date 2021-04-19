@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/cppObjects/Derived.cpp
+Derived.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/cppObjects/Derived.h
+iostream
+-
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/cppObjects/Derived.h
+Object.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/cppObjects/Object.h
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/cppObjects/Object.cpp
+Object.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/cppObjects/Object.h
+iostream
+-
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/cppObjects/Object.h
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/cppObjects/objectsMain.cpp
+iostream
+-
+memory
+-
+vector
+-
+Object.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/cppObjects/Object.h
+Derived.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/cppObjects/Derived.h
+

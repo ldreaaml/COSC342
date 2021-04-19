@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -std=c++11 -o CMakeFiles/Shapes.dir/shapesMain.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/shapesMain.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/shapesMain.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -std=c++11 -o CMakeFiles/Shapes.dir/Shape.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Shape.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Shape.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -std=c++11 -o CMakeFiles/Shapes.dir/Rectangle.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Rectangle.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Rectangle.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -std=c++11 -o CMakeFiles/Shapes.dir/Circle.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Circle.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Circle.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/build",
+  "command": "/usr/bin/clang++    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -std=c++11 -o CMakeFiles/Shapes.dir/Image.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Image.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/04/Shapes/Image.cpp"
+}
+]

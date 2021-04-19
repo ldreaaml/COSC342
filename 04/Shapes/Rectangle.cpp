@@ -1,5 +1,4 @@
 #include "Rectangle.h"
-
 #include <algorithm>
 #include <iostream>
 

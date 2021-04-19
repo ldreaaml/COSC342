@@ -2,7 +2,7 @@
 
 #include "Object.h"
 
-class Derived : public Object {
+class Derived : public Object { //subclass of Object
 
 public:
 

@@ -5,6 +5,7 @@
 
 #include "Shape.h"
 #include "Rectangle.h"
+#include "Circle.h"
 
 int main() {
 	Image image(100, 100);
@@ -15,6 +16,8 @@ int main() {
 	shapes.push_back(rect1);
 	std::shared_ptr<Rectangle> rect2(new Rectangle(-10, -10, 40, 60, Pixel(0, 255, 0)));
 	shapes.push_back(rect2);
+	std::shared_ptr<Circle> cir1(new Circle(20,20,10,Pixel(0,0,255)));
+	shapes.push_back(cir1);
 
 	for (auto shape : shapes) {
 		shape->draw(image);

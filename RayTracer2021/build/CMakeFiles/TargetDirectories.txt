@@ -1,0 +1,3 @@
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/build/CMakeFiles/rebuild_cache.dir
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/build/CMakeFiles/edit_cache.dir
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/RayTracer2021/build/CMakeFiles/rayTracer.dir

@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-Derived::Derived() {
+Derived::Derived() : Object() { //need to call Object constructor
 	std::cout << "Derived " << id_ << " created with Default Constructor" << std::endl;
 }
 
@@ -18,7 +18,8 @@ void Derived::whatAmI() const {
 	std::cout << "I am a Derived" << std::endl;
 }
 
-Derived& Derived::operator=(const Derived& d) {
+Derived& Derived::operator=(const Derived& d) { //assignment 
+	Object::operator = (d);
 	if (this != &d) {
 		std::cout << "Assigning Derived " << d.id_ << " to Derived " << id_ << std::endl;
 	} else {
