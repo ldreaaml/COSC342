@@ -142,10 +142,11 @@ std::vector<RayIntersection> Cube::intersect(const Ray& ray) const {
 	// x0 + t(dx) = +- 1;
 	// hit point in y,z are in range [-1,1]
 	// normal vector point along x axis
+
 	double x0 = inverseRay.point(0);
-	double dx = inverseRay.point(0);
+	double dx = inverseRay.direction(0);
 	t = (1-x0)/dx;
-	if(std::abs(dy) > epsilon){
+	if(std::abs(dx) > epsilon){
 		RayIntersection hit; 
 		hit.point = inverseRay.point + t * inverseRay.direction; //find hit point 
 		if(hit.point(1) <= 1 && hit.point(1) >= -1){ //y and z is within range [-1,1]
@@ -163,8 +164,9 @@ std::vector<RayIntersection> Cube::intersect(const Ray& ray) const {
 
 		}
 	}
+
 	t = (-1-x0)/dx;
-	if(std::abs(dy) > epsilon){
+	if(std::abs(dx) > epsilon){
 		RayIntersection hit; 
 		hit.point = inverseRay.point + t * inverseRay.direction; //find hit point 
 		if(hit.point(1) <= 1 && hit.point(1) >= -1){ //y and z is within range [-1,1]
