@@ -46,6 +46,8 @@ std::vector<RayIntersection> Sphere::intersect(const Ray& ray) const {
 		break;
 	case 0:
 		// One intersection
+		
+
 		t = -b/(2*a);
 		if (t > 0) {
 			// Intersection is in front of the ray's start point
