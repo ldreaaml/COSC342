@@ -50,7 +50,7 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 
 		//This plane shift 1 unit on Z-axis  t = 1-z0/dz
 		t = (1 - z0) / dz;
-		if (std::abs(dz) > epsilon)
+		if (std::abs(dz) > epsilon&& t>0)
 		{ //check if ray hits the plane
 			RayIntersection hit;
 			hit.point = inverseRay.point + t * inverseRay.direction; //find the point where ray hit??
@@ -65,7 +65,10 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 				//apply forward transform to it's point and normal to undo inverse transform we applied to the ray
 				hit.point = transform.apply(hit.point);
 				hit.normal = transform.apply(hit.normal);
-
+				if (hit.normal.dot(ray.direction) > 0)
+				{
+					hit.normal = -hit.normal;
+				}
 				//calculate distance between ray's starting point and hit point
 				hit.distance = (hit.point - ray.point).norm();
 				result.push_back(hit);
@@ -73,7 +76,7 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 		}
 		//This plane shift 1 unit on Z-axis  t = 1-z0/dz
 		t = (-1 - z0) / dz;
-		if (std::abs(dz) > epsilon)
+		if (std::abs(dz) > epsilon&& t>0)
 		{ //check if ray hits the plane
 			RayIntersection hit;
 			hit.point = inverseRay.point + t * inverseRay.direction; //find the point where ray hit??
@@ -88,7 +91,10 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 				//apply forward transform to it's point and normal to undo inverse transform we applied to the ray
 				hit.point = transform.apply(hit.point);
 				hit.normal = transform.apply(hit.normal);
-
+				if (hit.normal.dot(ray.direction) > 0)
+				{
+					hit.normal = -hit.normal;
+				}
 				//calculate distance between ray's starting point and hit point
 				hit.distance = (hit.point - ray.point).norm();
 				result.push_back(hit);
@@ -103,7 +109,7 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 
 		//This plane shift 1 unit on Z-axis  t = 1-z0/dz
 		t = (1 - y0) / dy;
-		if (std::abs(dy) > epsilon)
+		if (std::abs(dy) > epsilon&& t>0)
 		{ //check if ray hits the plane
 			RayIntersection hit;
 			hit.point = inverseRay.point + t * inverseRay.direction; //find the point where ray hit??
@@ -118,6 +124,10 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 				//apply forward transform to it's point and normal to undo inverse transform we applied to the ray
 				hit.point = transform.apply(hit.point);
 				hit.normal = transform.apply(hit.normal);
+				if (hit.normal.dot(ray.direction) > 0)
+				{
+					hit.normal = -hit.normal;
+				}
 
 				//calculate distance between ray's starting point and hit point
 				hit.distance = (hit.point - ray.point).norm();
@@ -126,7 +136,7 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 		}
 		//This plane shift -1 unit on Y-axis  t = 1-z0/dz
 		t = (-1 - y0) / dy;
-		if (std::abs(dy) > epsilon)
+		if (std::abs(dy) > epsilon&& t>0)
 		{ //check if ray hits the plane
 			RayIntersection hit;
 			hit.point = inverseRay.point + t * inverseRay.direction; //find the point where ray hit??
@@ -141,7 +151,10 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 				//apply forward transform to it's point and normal to undo inverse transform we applied to the ray
 				hit.point = transform.apply(hit.point);
 				hit.normal = transform.apply(hit.normal);
-
+				if (hit.normal.dot(ray.direction) > 0)
+				{
+					hit.normal = -hit.normal;
+				}
 				//calculate distance between ray's starting point and hit point
 				hit.distance = (hit.point - ray.point).norm();
 				result.push_back(hit);
@@ -156,7 +169,7 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 
 		//This plane shift 1 unit on X-axis  t = 1-x0/dx
 		t = (1 - x0) / dx;
-		if (std::abs(dx) > epsilon)
+		if (std::abs(dx) > epsilon&& t>0)
 		{ //check if ray hits the plane
 			RayIntersection hit;
 			hit.point = inverseRay.point + t * inverseRay.direction; //find the point where ray hit??
@@ -171,7 +184,10 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 				//apply forward transform to it's point and normal to undo inverse transform we applied to the ray
 				hit.point = transform.apply(hit.point);
 				hit.normal = transform.apply(hit.normal);
-
+				if (hit.normal.dot(ray.direction) > 0)
+				{
+					hit.normal = -hit.normal;
+				}
 				//calculate distance between ray's starting point and hit point
 				hit.distance = (hit.point - ray.point).norm();
 				result.push_back(hit);
@@ -180,7 +196,7 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 
 		//This plane shift 1 unit on X-axis  t = 1-x0/dx
 		t = (-1 - x0) / dx;
-		if (std::abs(dx) > epsilon)
+		if (std::abs(dx) > epsilon && t>0)
 		{ //check if ray hits the plane
 			RayIntersection hit;
 			hit.point = inverseRay.point + t * inverseRay.direction; //find the point where ray hit??
@@ -195,7 +211,10 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 				//apply forward transform to it's point and normal to undo inverse transform we applied to the ray
 				hit.point = transform.apply(hit.point);
 				hit.normal = transform.apply(hit.normal);
-
+				if (hit.normal.dot(ray.direction) > 0)
+				{
+					hit.normal = -hit.normal;
+				}
 				//calculate distance between ray's starting point and hit point
 				hit.distance = (hit.point - ray.point).norm();
 				result.push_back(hit);

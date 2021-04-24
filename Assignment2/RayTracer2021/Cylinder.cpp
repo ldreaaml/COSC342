@@ -130,7 +130,7 @@ std::vector<RayIntersection> Cylinder::intersect(const Ray &ray) const
 		double z0 = inverseRay.point(2);
 		double dz = inverseRay.direction(2);
 		t = (1 - z0) / dz;
-		if (std::abs(dz) > epsilon)  // ++ t>0?? 
+		if (std::abs(dz) > epsilon && t>0)  // ++ t>0?? 
 		{ 
 			RayIntersection hit;
 			hit.point = inverseRay.point + t * inverseRay.direction; 
@@ -145,7 +145,10 @@ std::vector<RayIntersection> Cylinder::intersect(const Ray &ray) const
 				//apply forward transform to it's point and normal to undo inverse transform we applied to the ray
 				hit.point = transform.apply(hit.point);
 				hit.normal = transform.apply(hit.normal);
-
+				if (hit.normal.dot(ray.direction) > 0)
+				{
+					hit.normal = -hit.normal;
+				}
 				//calculate distance between ray's starting point and hit point
 				hit.distance = (hit.point - ray.point).norm();
 				result.push_back(hit);
@@ -153,7 +156,7 @@ std::vector<RayIntersection> Cylinder::intersect(const Ray &ray) const
 		}
 		//bottom cap = plane with z = -1
 		t = (-1 - z0) / dz;
-		if (std::abs(dz) > epsilon)  // ++ t>0?? 
+		if (std::abs(dz) > epsilon && t>0)  // ++ t>0?? 
 		{ 
 			RayIntersection hit;
 			hit.point = inverseRay.point + t * inverseRay.direction; 
@@ -168,6 +171,10 @@ std::vector<RayIntersection> Cylinder::intersect(const Ray &ray) const
 				//apply forward transform to it's point and normal to undo inverse transform we applied to the ray
 				hit.point = transform.apply(hit.point);
 				hit.normal = transform.apply(hit.normal);
+				if (hit.normal.dot(ray.direction) > 0)
+				{
+					hit.normal = -hit.normal;
+				}
 
 				//calculate distance between ray's starting point and hit point
 				hit.distance = (hit.point - ray.point).norm();
