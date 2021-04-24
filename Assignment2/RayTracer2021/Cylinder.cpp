@@ -124,5 +124,7 @@ std::vector<RayIntersection> Cylinder::intersect(const Ray &ray) const
 		break;
 	}
 
+	
+
 	return result;
 }
