@@ -15,6 +15,15 @@ Object Plane
 	Translate -2 0 8
 End
 
+# A green Cube
+Object Cube 
+	Colour 0 1 0
+	Rotate X 30
+	Rotate Z 15
+	Rotate Y -15
+	Translate 2 0 8
+End
+
 # A blue Cylinder
 Object Cylinder 
 	Colour 0 0 1

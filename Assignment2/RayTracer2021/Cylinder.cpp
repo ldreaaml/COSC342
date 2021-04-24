@@ -124,7 +124,58 @@ std::vector<RayIntersection> Cylinder::intersect(const Ray &ray) const
 		break;
 	}
 
-	
+	if(true){ 
+		// cap is essentially a plane but we calculate the boundary to make sure it doesn't render the part outside the circle
+		//top cap  = plane with z = 1
+		double z0 = inverseRay.point(2);
+		double dz = inverseRay.direction(2);
+		t = (1 - z0) / dz;
+		if (std::abs(dz) > epsilon)  // ++ t>0?? 
+		{ 
+			RayIntersection hit;
+			hit.point = inverseRay.point + t * inverseRay.direction; 
+			// boundary x^2 + y^2 < 1   &&  x^2 + y^2 > -1
+			double x = hit.point(0);
+			double y = hit.point(1);
+			if ( (x*x + y*y) >= -1 && (x*x + y*y) <=1)
+			{
+				hit.material = material;	  //hit point material to be the same as Plane's material
+				hit.normal = Normal(0, 0, 1); //Z=0, so hit point normal is [0,0,1] ??
+
+				//apply forward transform to it's point and normal to undo inverse transform we applied to the ray
+				hit.point = transform.apply(hit.point);
+				hit.normal = transform.apply(hit.normal);
+
+				//calculate distance between ray's starting point and hit point
+				hit.distance = (hit.point - ray.point).norm();
+				result.push_back(hit);
+			}
+		}
+		//bottom cap = plane with z = -1
+		t = (-1 - z0) / dz;
+		if (std::abs(dz) > epsilon)  // ++ t>0?? 
+		{ 
+			RayIntersection hit;
+			hit.point = inverseRay.point + t * inverseRay.direction; 
+			// x^2 + y^2 < 1   &&  x^2 + y^2 > -1
+			double x = hit.point(0);
+			double y = hit.point(1);
+			if ( (x*x + y*y) >= -1 && (x*x + y*y) <=1)
+			{
+				hit.material = material;	  //hit point material to be the same as Plane's material
+				hit.normal = Normal(0, 0, 1); //Z=0, so hit point normal is [0,0,1] ??
+
+				//apply forward transform to it's point and normal to undo inverse transform we applied to the ray
+				hit.point = transform.apply(hit.point);
+				hit.normal = transform.apply(hit.normal);
+
+				//calculate distance between ray's starting point and hit point
+				hit.distance = (hit.point - ray.point).norm();
+				result.push_back(hit);
+			}
+		}
+	}
+
 
 	return result;
 }
