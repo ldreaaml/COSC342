@@ -125,9 +125,9 @@ std::vector<RayIntersection> Tube::intersect(const Ray& ray) const {
 
 	
 	/* inner surface of the tube*/
-	double radius = 0.5;
+	//double ratio_ = 0.5;
 	if(false){
-	c = (px* px) + (px * py) - radius;
+	c = (px* px) + (px * py) - ratio_;
 	b2_4ac = b * b - 4 * a * c;
 	
 	switch (sign(b2_4ac))
@@ -142,7 +142,7 @@ std::vector<RayIntersection> Tube::intersect(const Ray& ray) const {
 		if (t > 0)
 		{
 			hit.point = p + t * d;
-			if (hit.point(2) >= -radius && hit.point(2) <= radius)
+			if (hit.point(2) >= -ratio_ && hit.point(2) <= ratio_)
 			{
 				// Intersection is in front of the ray's start point
 
@@ -164,7 +164,7 @@ std::vector<RayIntersection> Tube::intersect(const Ray& ray) const {
 		if (t > 0)
 		{
 			hit.point = p + t * d;
-			if (hit.point(2) >= -radius && hit.point(2) <= radius)
+			if (hit.point(2) >= -ratio_ && hit.point(2) <= ratio_)
 			{
 				// Intersection is in front of the ray's start point
 				hit.point = transform.apply(hit.point);
@@ -182,7 +182,7 @@ std::vector<RayIntersection> Tube::intersect(const Ray& ray) const {
 		if (t > 0)
 		{
 			hit.point = p + t * d;
-			if (hit.point(2) >= -radius && hit.point(2) <= radius)
+			if (hit.point(2) >= -ratio_ && hit.point(2) <= ratio_)
 			{
 				// Intersection is in front of th ray's start point
 				hit.point = transform.apply(hit.point);
@@ -218,7 +218,7 @@ std::vector<RayIntersection> Tube::intersect(const Ray& ray) const {
 			double y = hit.point(1);
 			double p = (x*x) + (y*y);
 			// x^2 + y^2  = r^2
-			if(radius*radius <=p && p<= 1){
+			if(ratio_*ratio_ <=p && p<= 1){
 				hit.material = material;	  //hit point material to be the same as Plane's material
 				hit.normal = Normal(0, 0, 1); //Z=0, so hit point normal is [0,0,1] ??
 
@@ -245,7 +245,7 @@ std::vector<RayIntersection> Tube::intersect(const Ray& ray) const {
 			double y = hit.point(1);
 			double p = (x*x) + (y*y);
 			// x^2 + y^2  = r^2
-			if(radius*radius <=p && p<= 1){
+			if(ratio_*ratio_ <=p && p<= 1){
 				hit.material = material;	  //hit point material to be the same as Plane's material
 				hit.normal = Normal(0, 0, 1); //Z=0, so hit point normal is [0,0,1] ??
 
