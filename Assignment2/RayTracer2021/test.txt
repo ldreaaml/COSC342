@@ -1,6 +1,6 @@
 Scene
   BackgroundColour 0 0 0
-  RenderSize 600 600
+  RenderSize 300 300
   Filename a.png
 End
 

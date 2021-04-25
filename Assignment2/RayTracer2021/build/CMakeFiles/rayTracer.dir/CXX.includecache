@@ -6,35 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Camera.h
-Ray.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Ray.h
-Transform.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Transform.h
-
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Colour.h
 
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Direction.h
 Vector.h
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Vector.h
-
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/ImageDisplay.h
-Colour.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Colour.h
-NonCopyable.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/NonCopyable.h
-stb_image_write.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/stb_image_write.h
-string
--
-vector
--
-
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/LightSource.h
-Colour.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Colour.h
-Ray.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Ray.h
 
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Material.h
 Colour.h
@@ -46,8 +22,6 @@ vector
 iostream
 -
 
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/NonCopyable.h
-
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Normal.h
 Vector.h
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Vector.h
@@ -84,40 +58,6 @@ Normal.h
 memory
 -
 
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Scene.cpp
-Scene.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Scene.h
-Colour.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Colour.h
-ImageDisplay.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/ImageDisplay.h
-utility.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/utility.h
-
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Scene.h
-memory
--
-string
--
-vector
--
-Camera.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Camera.h
-Colour.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Colour.h
-LightSource.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/LightSource.h
-Material.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Material.h
-NonCopyable.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/NonCopyable.h
-Object.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Object.h
-Ray.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Ray.h
-RayIntersection.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/RayIntersection.h
-
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Transform.h
 Direction.h
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Direction.h
@@ -130,23 +70,19 @@ Point.h
 Ray.h
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Ray.h
 
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Tube.cpp
+Tube.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Tube.h
+utility.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/utility.h
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Tube.h
+Object.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Object.h
+
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Vector.h
 Matrix.h
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Matrix.h
-
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/stb_image_write.h
-stdio.h
--
-stdarg.h
--
-stdlib.h
--
-string.h
--
-math.h
--
-assert.h
--
 
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/utility.h
 cmath

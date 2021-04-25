@@ -45,165 +45,168 @@ std::vector<RayIntersection> Tube::intersect(const Ray& ray) const {
 	RayIntersection hit;
 	hit.material = material;
 
+	
 	double b2_4ac = b * b - 4 * a * c;
 	double t;
 
 	/* outer surface of the tube */
-	switch (sign(b2_4ac))
+	if (true)
 	{
-	case -1:
-		// No intersections
-		break;
-	case 0:
-		// One intersection
-
-		t = -b / (2 * a);
-		if (t > 0)
+		switch (sign(b2_4ac))
 		{
-			hit.point = p + t * d;
-			if (hit.point(2) >= -1 && hit.point(2) <= 1)
+		case -1:
+			// No intersections
+			break;
+		case 0:
+			// One intersection
+
+			t = -b / (2 * a);
+			if (t > 0)
 			{
-				// Intersection is in front of the ray's start point
-
-				hit.point = transform.apply(hit.point);
-				hit.normal = transform.apply(Normal(1, 1, 0)); //Normal point to ??
-				if (hit.normal.dot(ray.direction) > 0)
+				hit.point = p + t * d;
+				if (hit.point(2) >= -1 && hit.point(2) <= 1)
 				{
-					hit.normal = -hit.normal;
-				}
-				hit.distance = (hit.point - ray.point).norm();
-				result.push_back(hit);
-			}
-		}
-		break;
-	case 1:
-		// Two intersections
+					// Intersection is in front of the ray's start point
 
-		t = (-b + sqrt(b * b - 4 * a * c)) / (2 * a);
-		if (t > 0)
-		{
-			hit.point = p + t * d;
-			if (hit.point(2) >= -1 && hit.point(2) <= 1)
+					hit.point = transform.apply(hit.point);
+					hit.normal = transform.apply(Normal(1, 1, 0)); //Normal point to ??
+					if (hit.normal.dot(ray.direction) > 0)
+					{
+						hit.normal = -hit.normal;
+					}
+					hit.distance = (hit.point - ray.point).norm();
+					result.push_back(hit);
+				}
+			}
+			break;
+		case 1:
+			// Two intersections
+
+			t = (-b + sqrt(b * b - 4 * a * c)) / (2 * a);
+			if (t > 0)
 			{
-				// Intersection is in front of the ray's start point
-				hit.point = transform.apply(hit.point);
-				hit.normal = transform.apply(Normal(1, 1, 0));
-				if (hit.normal.dot(ray.direction) > 0)
+				hit.point = p + t * d;
+				if (hit.point(2) >= -1 && hit.point(2) <= 1)
 				{
-					hit.normal = -hit.normal;
+					// Intersection is in front of the ray's start point
+					hit.point = transform.apply(hit.point);
+					hit.normal = transform.apply(Normal(1, 1, 0));
+					if (hit.normal.dot(ray.direction) > 0)
+					{
+						hit.normal = -hit.normal;
+					}
+					hit.distance = (hit.point - ray.point).norm();
+					result.push_back(hit);
 				}
-				hit.distance = (hit.point - ray.point).norm();
-				result.push_back(hit);
 			}
-		}
 
-		t = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
-		if (t > 0)
-		{
-			hit.point = p + t * d;
-			if (hit.point(2) >= -1 && hit.point(2) <= 1)
+			t = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
+			if (t > 0)
 			{
-				// Intersection is in front of th ray's start point
-				hit.point = transform.apply(hit.point);
-				hit.normal = transform.apply(Normal(1, 1, 0));
-				if (hit.normal.dot(ray.direction) > 0)
+				hit.point = p + t * d;
+				if (hit.point(2) >= -1 && hit.point(2) <= 1)
 				{
-					hit.normal = -hit.normal;
+					// Intersection is in front of th ray's start point
+					hit.point = transform.apply(hit.point);
+					hit.normal = transform.apply(Normal(1, 1, 0));
+					if (hit.normal.dot(ray.direction) > 0)
+					{
+						hit.normal = -hit.normal;
+					}
+					hit.distance = (hit.point - ray.point).norm();
+					result.push_back(hit);
 				}
-				hit.distance = (hit.point - ray.point).norm();
-				result.push_back(hit);
 			}
-		}
 
-		break;
-	default:
-		// Shouldn't be possible, but just in case
-		std::cerr << "Something's wrong - sign(x) should be -1, +1 or 0" << std::endl;
-		exit(-1);
-		break;
+			break;
+		default:
+			// Shouldn't be possible, but just in case
+			std::cerr << "Something's wrong - sign(x) should be -1, +1 or 0" << std::endl;
+			exit(-1);
+			break;
+		}
 	}
 
-	
 	/* inner surface of the tube*/
-	//double ratio_ = 0.5;
-	if(false){
-	c = (px* px) + (px * py) - ratio_;
-	b2_4ac = b * b - 4 * a * c;
-	
-	switch (sign(b2_4ac))
+	if (true)
 	{
-	case -1:
-		// No intersections
-		break;
-	case 0:
-		// One intersection
-
-		t = -b / (2 * a);
-		if (t > 0)
+		c = (px * px) + (py * py) - ratio_;
+		b2_4ac = b * b - 4 * a * c;
+		switch (sign(b2_4ac))
 		{
-			hit.point = p + t * d;
-			if (hit.point(2) >= -ratio_ && hit.point(2) <= ratio_)
+		case -1:
+			// No intersections
+			break;
+		case 0:
+			// One intersection
+
+			t = -b / (2 * a);
+			if (t > 0)
 			{
-				// Intersection is in front of the ray's start point
-
-				hit.point = transform.apply(hit.point);
-				hit.normal = transform.apply(Normal(1, 1, 0)); //Normal point to ??
-				if (hit.normal.dot(ray.direction) > 0)
+				hit.point = p + t * d;
+				if (hit.point(2) >= -ratio_ && hit.point(2) <= ratio_)
 				{
-					hit.normal = -hit.normal;
-				}
-				hit.distance = (hit.point - ray.point).norm();
-				result.push_back(hit);
-			}
-		}
-		break;
-	case 1:
-		// Two intersections
+					// Intersection is in front of the ray's start point
 
-		t = (-b + sqrt(b * b - 4 * a * c)) / (2 * a);
-		if (t > 0)
-		{
-			hit.point = p + t * d;
-			if (hit.point(2) >= -ratio_ && hit.point(2) <= ratio_)
+					hit.point = transform.apply(hit.point);
+					hit.normal = transform.apply(Normal(1, 1, 0)); //Normal point to ??
+					if (hit.normal.dot(ray.direction) > 0)
+					{
+						hit.normal = -hit.normal;
+					}
+					hit.distance = (hit.point - ray.point).norm();
+					result.push_back(hit);
+				}
+			}
+			break;
+		case 1:
+			// Two intersections
+
+			t = (-b + sqrt(b * b - 4 * a * c)) / (2 * a);
+			if (t > 0)
 			{
-				// Intersection is in front of the ray's start point
-				hit.point = transform.apply(hit.point);
-				hit.normal = transform.apply(Normal(1, 1, 0));
-				if (hit.normal.dot(ray.direction) > 0)
+				hit.point = p + t * d;
+				if (hit.point(2) >= -ratio_ && hit.point(2) <= ratio_)
 				{
-					hit.normal = -hit.normal;
+					// Intersection is in front of the ray's start point
+					hit.point = transform.apply(hit.point);
+					hit.normal = transform.apply(Normal(1, 1, 0));
+					if (hit.normal.dot(ray.direction) > 0)
+					{
+						hit.normal = -hit.normal;
+					}
+					hit.distance = (hit.point - ray.point).norm();
+					result.push_back(hit);
 				}
-				hit.distance = (hit.point - ray.point).norm();
-				result.push_back(hit);
 			}
-		}
 
-		t = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
-		if (t > 0)
-		{
-			hit.point = p + t * d;
-			if (hit.point(2) >= -ratio_ && hit.point(2) <= ratio_)
+			t = (-b - sqrt(b * b - 4 * a * c)) / (2 * a);
+			if (t > 0)
 			{
-				// Intersection is in front of th ray's start point
-				hit.point = transform.apply(hit.point);
-				hit.normal = transform.apply(Normal(1, 1, 0));
-				if (hit.normal.dot(ray.direction) > 0)
+				hit.point = p + t * d;
+				if (hit.point(2) >= -ratio_ && hit.point(2) <= ratio_)
 				{
-					hit.normal = -hit.normal;
+					// Intersection is in front of th ray's start point
+					hit.point = transform.apply(hit.point);
+					hit.normal = transform.apply(Normal(1, 1, 0));
+					if (hit.normal.dot(ray.direction) > 0)
+					{
+						hit.normal = -hit.normal;
+					}
+					hit.distance = (hit.point - ray.point).norm();
+					result.push_back(hit);
 				}
-				hit.distance = (hit.point - ray.point).norm();
-				result.push_back(hit);
 			}
-		}
 
-		break;
-	default:
-		// Shouldn't be possible, but just in case
-		std::cerr << "Something's wrong - sign(x) should be -1, +1 or 0" << std::endl;
-		exit(-1);
-		break;
+			break;
+		default:
+			// Shouldn't be possible, but just in case
+			std::cerr << "Something's wrong - sign(x) should be -1, +1 or 0" << std::endl;
+			exit(-1);
+			break;
+		}
 	}
-	}
+	
 	/* cap */
 	if(true){ 
 		double z0 = inverseRay.point(2);
