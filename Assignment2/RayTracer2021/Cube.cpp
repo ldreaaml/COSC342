@@ -133,7 +133,7 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 	if (std::abs(dy) > epsilon && t > 0)
 	{ //check if ray hits the plane
 		RayIntersection hit;
-		hit.point = inverseRay.point + t * inverseRay.direction; //find the point where ray hit??
+		hit.point = inverseRay.point + t * inverseRay.direction;
 
 		//check if hit point's X and Z value lie in the range [-1,1]
 		if (hit.point(0) >= -1 && hit.point(0) <= 1 && hit.point(2) >= -1 && hit.point(2) <= 1)
@@ -165,7 +165,7 @@ std::vector<RayIntersection> Cube::intersect(const Ray &ray) const
 	if (std::abs(dx) > epsilon && t > 0)
 	{ //check if ray hits the plane
 		RayIntersection hit;
-		hit.point = inverseRay.point + t * inverseRay.direction; //find the point where ray hit??
+		hit.point = inverseRay.point + t * inverseRay.direction;
 
 		//check if hit point's Y and Z value is in the range [-1,1]
 		if (hit.point(1) >= -1 && hit.point(1) <= 1 && hit.point(2) >= -1 && hit.point(2) <= 1)
