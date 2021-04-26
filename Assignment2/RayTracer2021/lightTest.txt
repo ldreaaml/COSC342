@@ -1,31 +1,21 @@
 Scene
-  BackgroundColour 0 0 0
-  RenderSize 100 100
-  Filename lightTest.png
+    ambientLight 0.2 0.2 0.2
+    renderSize 200 150
+    BackgroundColour 0.2 0.2 0.2
+    filename lightTest.png
 End
-Material Gold
-  Colour 1 0.88 0.25
-  Specular 1 1 1 100
-  Mirror 1 0.88 0.25
-End
+
 Object Sphere
-  Material Gold
-  #Specular 0.7 0.7 0.7 75
-  #Colour 1 0 0
-  Translate 0 0 2
+    Colour 1 0 0
+    # Specular 1 1 1 100
 End
-Object Plane
-  Scale 10
-  Colour 1 1 1
-  Rotate X 90
-  Translate 0 1 0
+
+Camera PinholeCamera 3
+    translate 0 0 -10 
 End
-Camera PinholeCamera 1
-End
+
 Light PointLight
-  Location 3 0 0
-  Colour 8 8 8
+    Location -5 0 -10
+    Colour 75 75 75
 End
-Light AmbientLight
-  Colour 0.2 0.2 0.2
-End
+

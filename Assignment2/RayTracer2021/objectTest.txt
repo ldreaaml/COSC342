@@ -1,7 +1,7 @@
 # Test of the different Object Types
 Scene
     backgroundColour 0 0 0
-    renderSize 300 300
+    renderSize 400 400
 	rayDepth 2
 	Filename final.png
 End

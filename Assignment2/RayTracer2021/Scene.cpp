@@ -129,9 +129,10 @@ Colour Scene::computeColour(const Ray &ray, unsigned int rayDepth) const
 			RayIntersection shadow = intersect(shadowRay);
 
 			//distance to first intersection > than distance from original point to light source? compute effect
-			if (shadow.distance - light->getDistanceToLight(hitPoint.point) > 0)
+			if (shadow.distance > light->getDistanceToLight(hitPoint.point))
 			{
 				hitColour += ( i_d * k_d * diffuse) + ( i_s * k_s * pow(specular, a));
+				//hitColour += i_d*(k_d*diffuse + k_s*pow(specular, a));
 			}
 		}
 	} //END HERE

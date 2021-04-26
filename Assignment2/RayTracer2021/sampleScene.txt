@@ -1,41 +1,85 @@
-# Test of the different Object Types
 Scene
-    backgroundColour 0 0 0
-    renderSize 600 600
-	rayDepth 2
-	Filename final2.png
+    ambientLight 0.2 0.2 0.2
+    renderSize 450 600
+    #BackgroundColour 0 0 0
+	BackgroundColour 1 1 1
+    filename submission.png
 End
 
-# A mirror Plane
-Object Plane 
-	Colour 0.9 0.9 0.9
-	Mirror 0.7 0.7 0.7
-	Scale 2
-	Rotate Y -60
-	Translate -2 0 8
+Object Sphere
+	Scale 0.9
+    Colour 1 0 0
+    Specular 0.5 1 1 100
+	Translate 0 -2 0
 End
 
-# A blue Cylinder
-Object Cylinder 
+# Yellow Ring
+Object Tube 0.9
+	Scale3 2.2 1.6 0.04
+	Rotate X 120
+	Rotate Z -10
+	Colour 1 1 0
+	Translate 0 -2 0
+End
+# Green
+Object Tube 0.9
+	Scale3 2.2 1.8 0.04
+	Rotate X  120
+	#Rotate Y 10
+	Rotate Z 40
+	Colour 0 1 0
+	Translate 0 -2 0
+End
+# BLUE RING
+Object Tube 0.9
+	Scale3 2.2 2 0.04
+	Rotate X 70
+	Rotate Y 20
+	Rotate Z 110
 	Colour 0 1 1
-	Rotate Y 15
-	Translate 0 -2 8
+	Translate 0 -2 0
 End
 
 
-# Quite a lot of ambient light - since it all we have to start
-Light AmbientLight
-	Colour 0.5 0.5 0.5
+
+#Object Cylinder
+#	Colour 1 1 1
+#	Scale3  3 3 1
+#	Rotate X 95
+#	Translate 0 3 0
+#	Mirror 0.7 0.7 0.7
+#End
+
+# BG PLane
+Object Plane
+	Scale 20
+	Colour 0 0 1
+	Translate 0 0 5
 End
 
-# And point lght
+# Bottom Plane
+Object Plane
+	Scale 20
+	#Colour 0 0 1
+	Rotate X 95
+	Translate 0 0 0
+	Mirror 0.5 0.5 0.5
+End
+
+Camera PinholeCamera 3
+    Translate 0 0 -10 
+	#Rotate X -10
+End
+
 Light PointLight
-	Location 0 -10 0
-	# Colour may seem large, but the 1/distance^2 law will kick in
-	Colour 100 100 100
+    Location -5 -1 -10
+    Colour 80 80 80
 End
 
-# And a camera to render the image
-Camera PinholeCamera 2
-	# Default camera settings, nothing to do here
-End
+
+# NEEDS TO SHOW  
+# Specular x
+# Shadow   x
+# Diffuse  x
+# Cylinder
+# Tube x

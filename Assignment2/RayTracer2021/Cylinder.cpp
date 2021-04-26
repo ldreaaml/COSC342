@@ -65,9 +65,12 @@ std::vector<RayIntersection> Cylinder::intersect(const Ray &ray) const
 			if (hit.point(2) >= -1 && hit.point(2) <= 1)
 			{
 				// Intersection is in front of the ray's start point
-
+				
 				hit.point = transform.apply(hit.point);
-				hit.normal = transform.apply(Normal(1, 1, 0)); //Normal point to ??
+				Normal norm = p + t * d;
+				norm(2) = 0;
+				
+				hit.normal = transform.apply(norm); //Normal point to ??
 				if (hit.normal.dot(ray.direction) > 0)
 				{
 					hit.normal = -hit.normal;
@@ -88,7 +91,10 @@ std::vector<RayIntersection> Cylinder::intersect(const Ray &ray) const
 			{
 				// Intersection is in front of the ray's start point
 				hit.point = transform.apply(hit.point);
-				hit.normal = transform.apply(Normal(1, 1, 0));
+				Normal norm = p + t * d;
+				norm(2) = 0;
+				
+				hit.normal = transform.apply(norm);
 				if (hit.normal.dot(ray.direction) > 0)
 				{
 					hit.normal = -hit.normal;
@@ -106,7 +112,9 @@ std::vector<RayIntersection> Cylinder::intersect(const Ray &ray) const
 			{
 				// Intersection is in front of th ray's start point
 				hit.point = transform.apply(hit.point);
-				hit.normal = transform.apply(Normal(1, 1, 0));
+				Normal norm = p + t * d;
+				norm(2) = 0;
+				hit.normal = transform.apply(norm);
 				if (hit.normal.dot(ray.direction) > 0)
 				{
 					hit.normal = -hit.normal;
@@ -124,6 +132,9 @@ std::vector<RayIntersection> Cylinder::intersect(const Ray &ray) const
 		break;
 	}
 
+
+
+	
 	if(true){ 
 		// cap is essentially a plane but we calculate the boundary to make sure it doesn't render the part outside the circle
 		//top cap  = plane with z = 1
