@@ -5,8 +5,9 @@ Scene
     filename lightTest.png
 End
 
-Object Sphere
+Object Cylinder
     Colour 1 0 0
+    Rotate X 90
     # Specular 1 1 1 100
 End
 
