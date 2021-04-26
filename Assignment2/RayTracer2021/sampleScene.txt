@@ -8,8 +8,8 @@ End
 
 Object Sphere
 	Scale 0.9
-    Colour 1 0 1
-    Specular 0.5 1 1 100
+    Colour 1 0 0
+    Specular 0.5 1 1 20
 	Translate 0 -2 0
 End
 
@@ -20,6 +20,7 @@ Object Tube 0.9
 	Rotate Z -10
 	Colour 1 1 0
 	Translate 0 -2 0
+	Specular 0.5 1 1 100
 End
 # Green
 Object Tube 0.9
@@ -29,6 +30,7 @@ Object Tube 0.9
 	Rotate Z 40
 	Colour 0 1 0
 	Translate 0 -2 0
+	Specular 0.5 1 1 100
 End
 # BLUE RING
 Object Tube 0.9
@@ -38,6 +40,7 @@ Object Tube 0.9
 	Rotate Z 110
 	Colour 0 1 1
 	Translate 0 -2 0
+	Specular 0.5 1 1 100
 End
 
 
@@ -60,7 +63,7 @@ End
 # Bottom Plane
 Object Plane
 	Scale 20
-	#Colour 0 0 1
+	Colour 0 0 1
 	Rotate X 95
 	Translate 0 0 0
 	Mirror 0.5 0.5 0.5
