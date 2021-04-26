@@ -9,8 +9,9 @@ End
 Object Sphere
 	Scale 0.9
     Colour 1 0 0
-    Specular 0.5 1 1 20
+	Specular 0.5 1 1 20
 	Translate 0 -2 0
+
 End
 
 # Yellow Ring

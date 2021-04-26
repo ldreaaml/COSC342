@@ -1,22 +1,26 @@
 Scene
-    ambientLight 0.2 0.2 0.2
-    renderSize 200 150
-    BackgroundColour 0.2 0.2 0.2
-    filename lightTest.png
+  BackgroundColour 0 0 0
+  RenderSize 100 100
+  Filename lighttest.png
 End
-
-Object Cylinder
-    Colour 1 0 0
-    Rotate X 90
-    # Specular 1 1 1 100
+Object Sphere
+  Colour 1 0 0
+  Specular 1 1 1 100
+  Translate 0 0 2
 End
-
-Camera PinholeCamera 3
-    translate 0 0 -10 
+Object Plane
+  Scale 10
+  Colour 1 1 1
+  Rotate X 90
+  Translate 0 1 0
+  
 End
-
+Camera PinholeCamera 1
+End
 Light PointLight
-    Location -5 0 -10
-    Colour 75 75 75
+  Location 3 0 0
+  Colour 8 8 8
 End
-
+Light AmbientLight
+  Colour 0.2 0.2 0.2
+End
