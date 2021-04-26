@@ -8,16 +8,6 @@
 
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Colour.h
 
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Cylinder.cpp
-Cylinder.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Cylinder.h
-utility.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/utility.h
-
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Cylinder.h
-Object.h
-/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Object.h
-
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Direction.h
 Vector.h
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Vector.h
@@ -79,6 +69,16 @@ Point.h
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Point.h
 Ray.h
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Ray.h
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Tube.cpp
+Tube.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Tube.h
+utility.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/utility.h
+
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Tube.h
+Object.h
+/home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Object.h
 
 /home/cshome/p/pjitsawatpaiboon/Desktop/342/Assignment2/RayTracer2021/Vector.h
 Matrix.h
