@@ -114,10 +114,9 @@ Colour Scene::computeColour(const Ray &ray, unsigned int rayDepth) const
 			Vector unit_v = v / v.norm();
 			Vector unit_r = r / r.norm();
 
-			// //L12 code
 
 			//check sign of dot products of n*l  and   r*v, make sure value isn't negative
-			double diffuse = std::max<double>(0, unit_n.dot(unit_l)); //make sure value isn't
+			double diffuse = std::max<double>(0, unit_n.dot(unit_l));
 			double specular = std::max<double>(0, unit_r.dot(unit_v));
 
 			// set up shadow ray
@@ -128,11 +127,10 @@ Colour Scene::computeColour(const Ray &ray, unsigned int rayDepth) const
 
 			RayIntersection shadow = intersect(shadowRay);
 
-			//distance to first intersection > than distance from original point to light source? compute effect
+			//make sure distance to first intersection > than distance from original point to light source
 			if (shadow.distance > light->getDistanceToLight(hitPoint.point))
 			{
-				hitColour += ( i_d * k_d * diffuse) + ( i_s * k_s * pow(specular, a));
-				//hitColour += i_d*(k_d*diffuse + k_s*pow(specular, a));
+				hitColour += (i_d * k_d * diffuse) + (i_s * k_s * pow(specular, a));
 			}
 		}
 	} //END HERE
