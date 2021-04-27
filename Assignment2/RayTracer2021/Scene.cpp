@@ -99,7 +99,7 @@ Colour Scene::computeColour(const Ray &ray, unsigned int rayDepth) const
 			//Vector from hitpoint towards the ith light source
 			Vector l = -light->getLightDirection(hitPoint.point);
 
-			//Reflection of l and n
+			//Reflection of l about n
 			Vector r = 2 * (n.dot(l)) * n - l; //from lecture 12
 
 			//Vector from hit point back along the view ray
