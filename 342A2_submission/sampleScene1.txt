@@ -1,0 +1,80 @@
+# Sample Scene 1 - A scene with cube, cylinders and a mirror plane
+
+Scene
+    ambientLight 0.2 0.2 0.2
+    renderSize 450 600
+	BackgroundColour 1 1 1
+    filename sampleScene1.png
+End
+
+
+# Red Cube
+Object Cube
+	Scale 0.5
+    Colour 0.8 0 0.1
+    Rotate Y 45
+    Rotate X -45
+	Specular 1 1 1 10
+	Translate 0 -1.5 0
+End
+
+# Orange Cylinder 
+Object Cylinder 
+    Colour 1 0.4 0.1
+    Rotate X 90
+    Translate 0 -3.8 0
+    Specular 1 1 1 10
+End
+# Yellow Cylinder 
+Object Cylinder 
+    Scale3 1.6 1.6 1
+    Colour 1 0.7 0.1
+    Rotate X 90
+    Translate 0 -4.4 0
+    Specular 1 1 1 10
+End
+# Light Yellow Cylinder 
+Object Cylinder 
+    Scale3 2.2 2.2 1
+    Colour 1 0.9 0.3 
+    Rotate X 90
+    Translate 0 -5 0
+    Specular 1 1 1 10
+End
+
+
+# Mirror Plane
+Object Plane
+	Scale 20
+	Rotate X 95
+	Translate 0 0 0
+	Mirror 0.5 0.5 0.5
+End
+# Background PLane
+Object Plane
+	Scale 20
+	Colour 0 0 1
+	Translate 0 0 5
+End
+
+# Camera
+Camera PinholeCamera 3
+    Translate 0 0 -10
+End
+
+# Light source
+Light PointLight
+    Location -6 -1 -10
+    Colour 50 50 50 
+End
+
+# Light source (Left)
+Light PointLight
+    Location -6 -1 -6
+    Colour 60 60 60 
+End
+# Light source (Right)
+Light PointLight
+    Location 5 -1 -6
+    Colour 10 10 10 
+End

@@ -14,6 +14,12 @@
         "system_error": "cpp",
         "unordered_map": "cpp",
         "utility": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "complex": "cpp",
+        "ratio": "cpp",
+        "__tree": "cpp",
+        "map": "cpp",
+        "__locale": "cpp",
+        "locale": "cpp"
     }
 }

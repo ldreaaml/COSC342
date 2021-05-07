@@ -1,0 +1,112 @@
+[
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build",
+  "command": "/usr/bin/clang++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/include/GLFW -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glm-0.9.7.1 -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glew-1.13.0/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/assimp-3.0.1270/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/.  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/Part01.dir/Part01/simpleWindow.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/Part01/simpleWindow.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/Part01/simpleWindow.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build",
+  "command": "/usr/bin/clang++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/include/GLFW -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glm-0.9.7.1 -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glew-1.13.0/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/assimp-3.0.1270/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/.  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/Part02.dir/Part02/redTriangle.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/Part02/redTriangle.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/Part02/redTriangle.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build",
+  "command": "/usr/bin/clang++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/include/GLFW -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glm-0.9.7.1 -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glew-1.13.0/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/assimp-3.0.1270/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/.  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/Part02.dir/common/Shader.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/Shader.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/Shader.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build",
+  "command": "/usr/bin/clang++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/include/GLFW -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glm-0.9.7.1 -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glew-1.13.0/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/assimp-3.0.1270/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/.  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/Part02.dir/common/Camera.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/Camera.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/Camera.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build",
+  "command": "/usr/bin/clang++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/include/GLFW -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glm-0.9.7.1 -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glew-1.13.0/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/assimp-3.0.1270/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/.  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/Part02.dir/common/Scene.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/Scene.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/Scene.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build",
+  "command": "/usr/bin/clang++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/include/GLFW -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glm-0.9.7.1 -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glew-1.13.0/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/assimp-3.0.1270/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/.  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/Part02.dir/common/Object.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/Object.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/Object.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build",
+  "command": "/usr/bin/clang++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/include/GLFW -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glm-0.9.7.1 -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glew-1.13.0/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/assimp-3.0.1270/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/.  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/Part02.dir/common/Triangle.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/Triangle.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/Triangle.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build",
+  "command": "/usr/bin/clang++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/include/GLFW -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glm-0.9.7.1 -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glew-1.13.0/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/assimp-3.0.1270/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/.  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/Part02.dir/common/ColorShader.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/ColorShader.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/ColorShader.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build",
+  "command": "/usr/bin/clang++  -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/include/GLFW -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glm-0.9.7.1 -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glew-1.13.0/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/assimp-3.0.1270/include -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/.  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/Part02.dir/common/Quad.cpp.o -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/Quad.cpp",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/common/Quad.cpp"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/include/GLFW -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glew-1.13.0/include  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14   -o CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glew-1.13.0/src/glew.c",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glew-1.13.0/src/glew.c"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fPIC   -Wall -o CMakeFiles/glfw.dir/context.c.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/context.c",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/context.c"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fPIC   -Wall -o CMakeFiles/glfw.dir/init.c.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/init.c",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/init.c"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fPIC   -Wall -o CMakeFiles/glfw.dir/input.c.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/input.c",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/input.c"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fPIC   -Wall -o CMakeFiles/glfw.dir/monitor.c.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/monitor.c",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/monitor.c"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fPIC   -Wall -o CMakeFiles/glfw.dir/window.c.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/window.c",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/window.c"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_init.m.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/cocoa_init.m",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/cocoa_init.m"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_monitor.m.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/cocoa_monitor.m",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/cocoa_monitor.m"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fPIC   -Wall -o CMakeFiles/glfw.dir/cocoa_window.m.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/cocoa_window.m",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/cocoa_window.m"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fPIC   -Wall -o CMakeFiles/glfw.dir/iokit_joystick.m.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/iokit_joystick.m",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/iokit_joystick.m"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fPIC   -Wall -o CMakeFiles/glfw.dir/mach_time.c.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/mach_time.c",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/mach_time.c"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fPIC   -Wall -o CMakeFiles/glfw.dir/posix_tls.c.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/posix_tls.c",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/posix_tls.c"
+},
+{
+  "directory": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src",
+  "command": "/usr/bin/clang -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src -I/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/build/external/glfw-3.1.2/src  -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -fPIC   -Wall -o CMakeFiles/glfw.dir/nsgl_context.m.o   -c /home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/nsgl_context.m",
+  "file": "/home/cshome/p/pjitsawatpaiboon/Desktop/342/OpenGLIntro/external/glfw-3.1.2/src/nsgl_context.m"
+}
+]
